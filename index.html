@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Brew Bliss Cafe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            ☕ Brew Bliss Cafe
+            <p>Sip. Relax. Enjoy.</p>
+        </div>
+
+        <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#offers">Offers</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <h1>Welcome to Brew Bliss Cafe</h1>
+
+            <h2>Every Cup Tells a Story!</h2>
+
+            <p>
+                Enjoy freshly brewed coffee, delicious snacks
+                and peaceful moments with us.
+            </p>
+
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    
+<!-- About Section -->
+<section id="about" class="about">
+
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=800"
+        alt="Cozy Cafe">
+    </div>
+
+    <div class="about-content">
+        <h1>Our Story</h1>
+
+        <h2>A Little Happiness in Every Cup!</h2>
+
+        <p>
+            Welcome to Brew Bliss Cafe, your cozy corner
+            for freshly brewed coffee and delicious treats.
+            We believe that coffee is more than just a drink.
+            It is about happiness, friendship and beautiful moments.
+        </p>
+
+        <p>
+            Come, relax and enjoy your favourite cup with us!
+        </p>
+
+        <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+
+</section>
+
+
+    <!-- Menu Section -->
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <h1>Our Menu</h1>
+        <p>Freshly Brewed. Perfectly Served.</p>
+
+        <div class="menu-items">
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=400" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>₹120</p>
+                <button onclick="addToCart('Espresso', 120)">Add to Order</button>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>₹190</p>
+                <button onclick="addToCart('Cappuccino', 190)">Add to Order</button>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400" alt="Latte">
+                <h3>Latte</h3>
+                <p>₹180</p>
+                <button onclick="addToCart('Latte', 180)">Add to Order</button>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400" alt="Sandwich">
+                <h3>Veg Sandwich</h3>
+                <p>₹150</p>
+                <button onclick="addToCart('Veg Sandwich', 150)">Add to Order</button>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1619531040576-f9416740661b?w=400" alt="Garlic Bread">
+                <h3>Garlic Bread</h3>
+                <p>₹120</p>
+                <button onclick="addToCart('Garlic Bread', 120)">Add to Order</button>
+            </div>
+
+            <div class="item">
+                <img src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400" alt="Chocolate Muffin">
+                <h3>Chocolate Muffin</h3>
+                <p>₹180</p>
+                <button onclick="addToCart('Chocolate Muffin', 180)">Add to Order</button>
+            </div>
+
+        </div>
+
+        <h2 id="cart">Your Cart: <span id="cart-count">0</span> items</h2>
+        <p id="cart-total">Total: ₹0</p>
+    </section>
+
+<!-- Special Offers Section -->
+<section id="offers" class="offers">
+
+    <h1>Special Offers!</h1>
+
+    <h2>Buy 1 Get 1 FREE</h2>
+
+    <p>Double the coffee, double the happiness!</p>
+
+    <a href="#menu" class="btn">Order Now</a>
+
+</section>
+
+    <!-- Contact Section -->
+    
+<!-- Contact Section -->
+<section id="contact" class="contact">
+
+    <h1>Visit Our Cafe</h1>
+    <p class="contact-subtitle">We would love to serve you!</p>
+
+    <div class="contact-info">
+
+        <div>
+            <h3>📍 Location</h3>
+            <p>Kalyan, Maharashtra</p>
+        </div>
+
+        <div>
+            <h3>🕒 Opening Hours</h3>
+            <p>Monday - Sunday</p>
+            <p>10:00 AM - 10:00 PM</p>
+        </div>
+
+        <div>
+            <h3>📞 Contact</h3>
+            <p>Contact details coming soon</p>
+        </div>
+
+        <div>
+            <h3>📸 Follow Us</h3>
+            <p>Instagram: @brewblisscafe</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+
+    <h2>☕ Brew Bliss Cafe</h2>
+
+    <p>Sip. Relax. Enjoy.</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p>© 2026 Brew Bliss Cafe. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
